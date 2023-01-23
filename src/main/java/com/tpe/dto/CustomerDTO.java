@@ -33,6 +33,7 @@ public class CustomerDTO {
     private String email;
 
     private String phone;
+
     public CustomerDTO(Customer customer){
         this.name=customer.getName();
         this.lastName=customer.getLastName();
